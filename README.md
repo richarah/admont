@@ -39,7 +39,9 @@ Admont is currently limited to working with single text files. Support for proce
 
 #### Garbage in, garbage out
 
-The chatbot's accuracy is dependent on the quality of the data provided, and it may not always provide the correct answer.
+Providing a query unrelated to the text corpus may also result in bizarre responses (e.g. training it on cryptography lectures and asking it to bake a cake caused the chatbot to respond in Japanese)
+
+It is also worth noting that the chatbot's accuracy is dependent on the quality of the data provided, and even in ideal circumstances it may not always provide the correct answer.
 
 #### Known bugs/quirks
 
