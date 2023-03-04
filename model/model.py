@@ -9,7 +9,7 @@ hf_model_id = os.environ["HF_MODEL_ID"]
 
 def query(inputs, api_token=os.environ["HF_API_KEY"], model_id=os.environ["HF_MODEL_ID"]):
     payload = {"inputs": inputs, "parameters": {
-        "max_length": 500,
+        "max_length": 10,
         "temperature": 0.1,
         "num_return_sequences": 1,
         }
