@@ -8,7 +8,7 @@ Named after [Admont Abbey](https://en.wikipedia.org/wiki/Admont_Abbey), which ho
 
 ## Usage
 
-#### #### HuggingFace API
+#### #### A note on HuggingFace API
 
 Admont requires a HuggingFace API key and model ID to work - this is set in the `.env` file of the root directory:
 
@@ -17,9 +17,7 @@ HF_API_KEY=(your API key)
 HF_MODEL_ID=bigscience/bloom	# default, this may be any text-generation model
 ```
 
-
-
-
+#### Running Admont
 
 To use admont, navigate to the project directory and run the `run.py` file. This will launch the chatbot and prompt the user for a text file:
 
@@ -41,7 +39,7 @@ Admont is currently limited to working with single text files. Support for proce
 
 #### Garbage in, garbage out
 
-Additionally, the chatbot's accuracy is dependent on the quality of the data provided, and it may not always provide the correct answer.
+The chatbot's accuracy is dependent on the quality of the data provided, and it may not always provide the correct answer.
 
 #### Known bugs/quirks
 
