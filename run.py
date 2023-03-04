@@ -7,7 +7,7 @@ from model.model import *
 def extract_question(text):
     question_index = text.find("Question:")
     if question_index != -1:
-        question = "Question" + text[question_index + len("Question:"):].strip()
+        question = "Question: " + text[question_index + len("Question:"):].strip()
         return question
     else:
         return text
