@@ -25,7 +25,7 @@ def query(inputs, api_token=os.environ["HF_API_KEY"], model_id=os.environ["HF_MO
 # print(data)
 
 # DEBUG
-if __name__ == "main":
+if __name__ == "__main__":
     inp = input("Input: ")
     data = query(inp, hf_api_key, hf_model_id)
     print(data)
