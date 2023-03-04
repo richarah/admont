@@ -29,7 +29,7 @@ if __name__ == "__main__":
     file_path = filedialog.askopenfilename()
     question = input("Query: ")
     if question == "exit":
-        break
+        exit()
     topic_sentences, response = ask_question(file_path, question, [], hf_api_key, hf_model_id)
     while True:
         text = input('"q" for new question, "a" to continue current answer, "exit" to exit: ').lower()
