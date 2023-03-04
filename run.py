@@ -27,7 +27,7 @@ if __name__ == "__main__":
     hf_api_key = os.environ["HF_API_KEY"]
     hf_model_id = os.environ["HF_MODEL_ID"]
     file_path = filedialog.askopenfilename()
-    question = input("Query: ")
+    question = input("Question: ")
     if question == "exit":
         exit()
     topic_sentences, response = ask_question(file_path, question, [], hf_api_key, hf_model_id)
