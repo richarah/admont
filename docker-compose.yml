@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  admont:
+    build: .
+    tty: true
+    environment:
+      DISPLAY: $DISPLAY
+      TZ: "America/New_York"
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ./.env:/app/.env
+      - ./data:/app/data

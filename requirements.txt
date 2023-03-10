@@ -1,4 +1,3 @@
-dotenv
+python-dotenv
 tk
-regex
-collections
+requests
