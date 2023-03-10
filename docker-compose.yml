@@ -5,9 +5,12 @@ services:
     build: .
     tty: true
     environment:
-      DISPLAY: $DISPLAY
+      DISPLAY: ":0"
+      XAUTHORITY: "/tmp/.docker.xauth"
       TZ: "America/New_York"
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
+      - /tmp/.docker.xauth:/tmp/.docker.xauth:rw
+      - /home/$USER:/docker
       - ./.env:/app/.env
       - ./data:/app/data
