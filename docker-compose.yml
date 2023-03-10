@@ -14,3 +14,4 @@ services:
       - /home/$USER:/docker
       - ./.env:/app/.env
       - ./data:/app/data
+    container_name: admont

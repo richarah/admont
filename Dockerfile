@@ -1,4 +1,4 @@
-FROM python:3.11
+FROM python:3.12-rc-slim-buster
 
 # DO NOT copy .env or ./data dir
 ADD esr /app/esr
