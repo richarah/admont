@@ -42,4 +42,5 @@ if __name__ == "__main__":
             topic_sentences, response = ask_question(file_path, question, topic_sentences, hf_api_key, hf_model_id)
         elif text == "a":
             response = query(response, hf_api_key, hf_model_id)
+            os.system('clear')
             print(extract_question(response))
