@@ -1,6 +1,6 @@
 # admont
 
-A chatbot and accompanying utilities largely built on HuggingFace Inference API, with the aim of helping users answer questions about and make sense of large piles of unstructured data. It is currently designed to work with text files, with support for other formats & processing entire directories to be implemented in the future.
+A chatbot and accompanying utilities, designed with the aim of helping users answer questions about and make sense of large piles of unstructured data. It is currently designed to work with text files, with support for other formats & processing entire directories to be implemented in the future.
 
 #### What's in a name?
 
@@ -39,7 +39,9 @@ Admont is currently limited to working with single text files. Support for proce
 
 #### Garbage in, garbage out
 
-The chatbot's accuracy is dependent on the quality of the data provided, and it may not always provide the correct answer.
+Providing a query unrelated to the text corpus may also result in bizarre responses (notably, providing it a knowledge base of cryptography lectures and subsequently asking it to bake a cake caused the chatbot to respond in Japanese)
+
+It is also worth noting that the chatbot's accuracy is dependent on the quality of the data provided, and even in ideal circumstances it may not always provide the correct answer.
 
 #### Known bugs/quirks
 
