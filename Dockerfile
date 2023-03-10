@@ -6,6 +6,11 @@ ADD model /app/model
 ADD run.py /app
 ADD requirements.txt /app
 
+# OS reqs for tk
+RUN DEBIAN_FRONTEND=noninteractive apt-get update
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y python-tk python3-tk tk-dev
+
+# Python reqs
 WORKDIR /app
 RUN pip install -r requirements.txt
 
