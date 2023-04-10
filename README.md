@@ -2,6 +2,12 @@
 
 A chatbot and accompanying utilities, designed with the aim of helping users answer questions about and make sense of large piles of unstructured data. It is currently designed to work with text files, with support for other formats & processing entire directories to be implemented in the future.
 
+#### Why not just use GODEL?
+
+Two separate solutions for separate problems.
+
+While extractive models such as GODEL offer better all-round performance, Admont as a whole is more geared towards "messy", unstructured corpora and zero-shot training (ie. no examples).
+
 #### What's in a name?
 
 Named after [Admont Abbey](https://en.wikipedia.org/wiki/Admont_Abbey), which holds the record for the largest monastic library in the world.
