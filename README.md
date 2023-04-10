@@ -2,11 +2,13 @@
 
 A chatbot and accompanying utilities, designed with the aim of helping users answer questions about and make sense of large piles of unstructured data. It is currently designed to work with text files, with support for other formats & processing entire directories to be implemented in the future.
 
-#### Why not just use GODEL?
+#### Why not just use e.g. GODEL?
 
-Two separate solutions for separate problems.
+Different approaches for different problems.
 
 While extractive models such as GODEL offer better all-round performance, Admont as a whole is more geared towards "messy", unstructured corpora and zero-shot training (ie. no examples).
+
+However, due to huge strides in LLM development, programmatically-generated training examples & text preprocessing may prove a better approach.
 
 #### What's in a name?
 
