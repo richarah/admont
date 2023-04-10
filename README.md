@@ -16,7 +16,7 @@ Named after [Admont Abbey](https://en.wikipedia.org/wiki/Admont_Abbey), which ho
 
 ## Usage
 
-#### #### A note on HuggingFace API
+#### A note on HuggingFace API
 
 Admont requires a HuggingFace API key and model ID to work - this is set in the `.env` file of the root directory:
 
